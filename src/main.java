@@ -1,6 +1,8 @@
+import controller.Controller;
+
 public class main {
     public static void main(String[] args) {
-        view show = new view();
-        show.initialView();
+        Controller ct = new Controller();
+        ct.game();
     }
 }
