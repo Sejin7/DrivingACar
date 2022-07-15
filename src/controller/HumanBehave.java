@@ -13,6 +13,8 @@ public class HumanBehave {
     public void getName(Human user) {
         // 이름을 입력받고 메서드 변수 name에 전달
         user.name = di2.inputName();
+        // 캐릭터 생성여부 false에서 true로 변경
+        user.isCreated = true;
         // 이름 출력
         ps.printName(user.name);
     }

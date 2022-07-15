@@ -4,6 +4,7 @@ import view.*;
 
 public class Human {
     public String name;
+    public boolean isCreated;
     public boolean[] garage = new boolean[3];
     public int currentCar;
     IntegerDataInput di = new IntegerDataInput();
